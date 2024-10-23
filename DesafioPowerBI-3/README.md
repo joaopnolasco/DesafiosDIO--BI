@@ -1,6 +1,6 @@
-# Desafio 3 - Criando um Dashboard corporativo com integração com MySQL e Azure
+# Desafio 3 - Dashboard corporativo com integração com MySQL e Azure
    
-## Consulta SQL
+## Código criado para junção dos colaboradores e respectivos nomes dos gerentes (SQL)
 
 Código criado para junção dos colaboradores e respectivos nomes dos gerentes.
 
