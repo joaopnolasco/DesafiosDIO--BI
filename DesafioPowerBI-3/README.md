@@ -1,10 +1,4 @@
-# Desafio - Criando um Dashboard corporativo com integração com MySQL e Azure
-
-Repositório criado para apresentar os passos realizados e arquivos necessários para a entrega do desafio de projeto.
-
-## Links
-
- - [Arquivo do Power BI Desktop](https://github.com/joaopaulonsilva/Bootcamp_NTT_DATA_Engenharia_de_Dados/blob/main/Desafios/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure.pbix)
+# Desafio 3 - Criando um Dashboard corporativo com integração com MySQL e Azure
    
 ## Consulta SQL
 
@@ -16,23 +10,22 @@ from Employee as a left join Employee as b
 on a.super_ssn = b.ssn;
 ```
 
-## Telas do Desafio
+## Telas 
 
-![Relacionamentos entre tabelas](https://github.com/joaopaulonsilva/Bootcamp_NTT_DATA_Engenharia_de_Dados/blob/main/Desafios/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/assets/relacionamentos.JPG)
+![relacionamentos](https://github.com/user-attachments/assets/65244834-2ac5-4028-a835-6ac86b0ed345)
+
 
 ## Diferença entre Mesclar e Acrescentar
 
-A diferença é que o Mesclar Consultas realiza a junção das tabelas, criando uma nova coluna com as informações desejadas da segunda tabela
+ Mesclar Consultas realiza a junção das tabelas, criando uma nova coluna com as informações desejadas da segunda tabela
 
-Já o Acrescentar Consultas realiza a união dados das duas tabelas, acrescentando linhas à tabela.
+Já se tratando do Acrescentar Consultas, ele realiza a união dados das duas tabelas, acrescentando linhas à tabela.
 
-#### Exemplo (Tabelas employee e departament)
+#### Exemplo 
 
-- Mesclar Consultas
-  
-![Mesclar Consultas](https://github.com/joaopaulonsilva/Bootcamp_NTT_DATA_Engenharia_de_Dados/blob/main/Desafios/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/assets/mesclar_consultas.JPG))
+![mesclar_consultas](https://github.com/user-attachments/assets/cb8082b9-1e09-426b-84e8-894bc1a8dd4f)
 
-- Acrescentar Consultas
-  
-![Acrescentar Consultas](https://github.com/joaopaulonsilva/Bootcamp_NTT_DATA_Engenharia_de_Dados/blob/main/Desafios/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/assets/acrescentar_consultas.JPG)
+![acrescentar_consultas](https://github.com/user-attachments/assets/c14504fa-bc2f-48aa-90d9-78c02cbe1766)
+
+
 
