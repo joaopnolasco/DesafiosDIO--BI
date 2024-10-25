@@ -2,7 +2,7 @@
 
 Este documento descreve os passos seguidos para concluir o desafio de modelar um dashboard de e-commerce no Power BI, utilizando fórmulas DAX.
 
-## Modelo Estrela da Sample Financials
+## STAR SCHEMA no PoweR BI
 
 As tabelas foram criadas de acordo com as orientações do arquivo fornecido pela professora.
 
