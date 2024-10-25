@@ -1,5 +1,5 @@
 ![capa](https://github.com/user-attachments/assets/b6817fd3-5e53-4f0c-8df3-a55ec61dbcfd)
-# Bootcamp Análise de Dados - Resumo
+# Bootcamp Engenharia de Dados (DIO e NTT Data) - Resumo
 
 ## Habilidades Desenvolvidas
 - **Fundamentos de Business Intelligence (BI)**: Conceitos principais de BI e processos ETL.
