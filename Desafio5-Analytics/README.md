@@ -27,9 +27,9 @@ Este projeto de Data Analytics com Power BI visa analisar e visualizar informaç
 - Ferramentas de ETL (Extração, Transformação e Carga) para preparar os dados para análise.
 
 imganes do relatório desenvolvido:
-
-![Cap![Captura de tela 2024-10-25 160400](https://github.com/user-attachments/assets/9e901974-264f-4260-861a-ef74d7f615b5)
 tura de tela 2024-10-25 160353](https://github.com/user-attachments/assets/2c98a845-a9d4-4167-a52c-559ec37398f1)
+![Captura de tela 2024-10-25 160400](https://github.com/user-attachments/assets/669f3d1f-ea14-4257-8f78-2f926c0eb8ca)
+
 
 ![Captura de tela 2024-10-25 160409](https://github.com/user-attachments/assets/8aa436e0-7634-43e0-90d3-ef8ae1795529)
 ![Captura de tela 2024-10-25 160416](https://github.com/user-attachments/assets/ce182f61-bdf5-4528-9289-d22f3340aed4)
