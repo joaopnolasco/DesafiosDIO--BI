@@ -1,38 +1,24 @@
-# Desafio - Criando um Dashboard corporativo com integração com MySQL e Azure
+# Desafio5 DIO: Criando um Dashboard Gerencial para Tomada de Decisões com Power BI 📊 
 
-Repositório criado para apresentar os passos realizados e arquivos necessários para a entrega do desafio de projeto.
+## 📄 Estrutura do Projeto
 
-## Links
+## 🔧 Melhorias Implementadas
+As principais melhorias realizadas no relatório incluem:
 
- - [Arquivo do Power BI Desktop](https://github.com/joaopaulonsilva/Bootcamp_NTT_DATA_Engenharia_de_Dados/blob/main/Desafios/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure.pbix)
-   
-## Consulta SQL
+- **Visibilidade de Dados:** Maior clareza e ênfase nas métricas principais.
+- **Segmentação de Dados:** Revisão dos filtros para aprimorar a análise.
+- **Navegação entre Páginas:** Facilitada com botões de navegação.
+- **Design Harmonizado:** Uso da Proporção Áurea e da Sequência de Fibonacci para uma estrutura visual equilibrada.
 
-Código criado para junção dos colaboradores e respectivos nomes dos gerentes.
+## 📑 Páginas do Relatório
 
-```SQL
-select concat(b.fname, ' ', b.minit, ' ',b.lname) as Gerente, concat(a.fname, ' ', a.minit, ' ',a.lname) as Colaborador 
-from Employee as a left join Employee as b 
-on a.super_ssn = b.ssn;
-```
+- **Sales:** Métricas de Vendas.
+- **Profit:** Análise de Lucros.
+- **Report:** Visão Geral Consolidada.
 
-## Telas do Desafio
 
-![Relacionamentos entre tabelas](https://github.com/joaopaulonsilva/Bootcamp_NTT_DATA_Engenharia_de_Dados/blob/main/Desafios/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/assets/relacionamentos.JPG)
+![Captura de tela 2024-10-25 150947](https://github.com/user-attachments/assets/357984a5-e90a-4eed-8344-84641425e951)
+![Captura de tela 2024-10-25 151005](https://github.com/user-attachments/assets/6130da08-680b-449f-a363-6321c82fbc35)
 
-## Diferença entre Mesclar e Acrescentar
-
-A diferença é que o Mesclar Consultas realiza a junção das tabelas, criando uma nova coluna com as informações desejadas da segunda tabela
-
-Já o Acrescentar Consultas realiza a união dados das duas tabelas, acrescentando linhas à tabela.
-
-#### Exemplo (Tabelas employee e departament)
-
-- Mesclar Consultas
-  
-![Mesclar Consultas](https://github.com/joaopaulonsilva/Bootcamp_NTT_DATA_Engenharia_de_Dados/blob/main/Desafios/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/assets/mesclar_consultas.JPG))
-
-- Acrescentar Consultas
-  
-![Acrescentar Consultas](https://github.com/joaopaulonsilva/Bootcamp_NTT_DATA_Engenharia_de_Dados/blob/main/Desafios/Criando%20um%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/assets/acrescentar_consultas.JPG)
+![Captura de tela 2024-10-25 151016](https://github.com/user-attachments/assets/a2f68d27-1c08-43bd-bfba-2731a4523648)
 
